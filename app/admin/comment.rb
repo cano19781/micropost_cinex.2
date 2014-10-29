@@ -1,4 +1,5 @@
 ActiveAdmin.register Comment do
+  permit_params :commenter, :body, :user_id
 
 
   # See permitted parameters documentation:
