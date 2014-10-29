@@ -1,0 +1,64 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Nombres:</strong>
+  <%= @employee.nombres %>
+</p>
+
+<p>
+  <strong>Apellidos:</strong>
+  <%= @employee.apellidos %>
+</p>
+
+<p>
+  <strong>Ci:</strong>
+  <%= @employee.ci %>
+</p>
+
+<p>
+  <strong>Cargo:</strong>
+  <%= @employee.cargo %>
+</p>
+
+<p>
+  <strong>Telefono local:</strong>
+  <%= @employee.telefono_local %>
+</p>
+
+<p>
+  <strong>Ext:</strong>
+  <%= @employee.ext %>
+</p>
+
+<p>
+  <strong>Celular:</strong>
+  <%= @employee.celular %>
+</p>
+
+<p>
+  <strong>Correo:</strong>
+  <%= @employee.correo %>
+</p>
+
+<p>
+  <strong>Sucursal:</strong>
+  <%= @employee.sucursal %>
+</p>
+
+<p>
+  <strong>Departamento:</strong>
+  <%= @employee.departamento %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @employee.user_id %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @employee.user %>
+</p>
+
+<%= link_to 'Edit', edit_employee_path(@employee) %> |
+<%= link_to 'Back', employees_path %>
