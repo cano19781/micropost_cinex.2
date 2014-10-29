@@ -1,4 +1,5 @@
 ActiveAdmin.register Employee do
+  permit_params :nombres, :apellidos, :ci, :cargo, :telefono_local, :ext, :celular, :correo, :sucursal, :departamento, :user_id
 
 
   # See permitted parameters documentation:
